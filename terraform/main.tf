@@ -91,7 +91,7 @@ resource "aws_ecr_repository" "example" {
 }
 
 output "ecs_cluster_name" {
-  description = "ben-ecs"
+  description = "ecs-sample"
   value       = module.ecs.cluster_name
 }
 

@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: ben-ecr       
   ECS_SERVICE: ben-services         
   ECS_CLUSTER: ben-ecs-tf                     
-  CONTAINER_NAME: ben-ecs         
+  CONTAINER_NAME: ecs-sample         
                                                
 
 # permissions:
