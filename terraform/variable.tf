@@ -4,7 +4,7 @@ variable "vpc_name" {
 }
 
 variable "cluster_name" {
-  description = "ben-cluster"
+  description = "ben-ecs-tf"
   default     = "ben-ecs-tf"
 }
 
@@ -14,7 +14,7 @@ variable "service_name" {
 }
 
 variable "container_name" {
-  description = "ben-ecs"
+  description = "ecs-sample"
   default     = "ecs-sample"
 }
 
